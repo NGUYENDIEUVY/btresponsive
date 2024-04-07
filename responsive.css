@@ -73,15 +73,15 @@ footer {
     }
 }
 
-@media only screen and (max-width: 150px) {
+@media only screen and (max-width: 350px) {
     #content, aside, header, footer {
-        width: 150px;
+        width: 350px;
     }
     .box-list {
         display: flex;
         flex-direction: column;
     }
     .box-list li {
-        width: 150px;
+        width: 350px;
     }
 }
